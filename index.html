@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PowerZone Fitness</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">POWER<span>ZONE</span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#bmi">BMI</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Train Hard. Stay Strong.</h1>
+    <p>Premium Gym Experience with World Class Equipment</p>
+    <button onclick="scrollToSection('pricing')">Join Now</button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>
+    PowerZone Fitness offers 24/7 access, certified trainers,
+    modern machines, personal coaching, and group classes.
+    Your transformation starts here.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section class="section dark" id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1" alt="">
+      <h3>Strength Training</h3>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e" alt="">
+      <h3>Cardio Zone</h3>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1571019613914-85f342c6a11e" alt="">
+      <h3>Personal Training</h3>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <h2>Membership Plans</h2>
+  <div class="grid">
+    <div class="price-card">
+      <h3>Basic</h3>
+      <h1>₹999</h1>
+      <p>Access to Gym</p>
+      <button>Choose Plan</button>
+    </div>
+    <div class="price-card featured">
+      <h3>Pro</h3>
+      <h1>₹1999</h1>
+      <p>Gym + Trainer</p>
+      <button>Choose Plan</button>
+    </div>
+    <div class="price-card">
+      <h3>Elite</h3>
+      <h1>₹2999</h1>
+      <p>All Access + Diet Plan</p>
+      <button>Choose Plan</button>
+    </div>
+  </div>
+</section>
+
+<!-- BMI CALCULATOR -->
+<section class="section dark" id="bmi">
+  <h2>BMI Calculator</h2>
+  <div class="bmi-box">
+    <input type="number" id="height" placeholder="Height (cm)">
+    <input type="number" id="weight" placeholder="Weight (kg)">
+    <button onclick="calculateBMI()">Calculate</button>
+    <h3 id="result"></h3>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <h2>Gallery</h2>
+  <div class="grid">
+    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48">
+    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f">
+    <img src="https://images.unsplash.com/photo-1594737625785-cafdbdfb8a6b">
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section dark">
+  <h2>What Members Say</h2>
+  <div class="testimonial">
+    <p>"Best gym experience ever! Trainers are amazing."</p>
+    <h4>- Rahul</h4>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button>Send Message</button>
+  </form>
+
+  <!-- Google Maps Embed -->
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.506... (shorten this or replace with your location)"
+    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+  </iframe>
+</section>
+
+<footer>
+  <p>© 2026 PowerZone Fitness | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
